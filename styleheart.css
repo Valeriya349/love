@@ -34,3 +34,15 @@ body {
     transform: scale(1.5);
   }
 }
+
+@keyframes ch-color-1 {
+  from {
+    color: crimson;
+  }
+  50% {
+    color: blueviolet;
+  }
+  to {
+    color: blue;
+  }
+}
