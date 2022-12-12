@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: darkgrey;
+  color: white;
+}
+.container {
+  overflow: hidden;
+}
+.heart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: crimson;
+  padding-top: 15rem;
+  font-size: 10rem;
+}
+.heart {
+  animation: heartbeat 0.5s infinite alternate;
+  transform-origin: center;
+}
+.text {
+  padding-top: 5rem;
+  padding-left: 41rem;
+}
+
+@keyframes heartbeat {
+  to {
+    transform: scale(1.5);
+  }
+}
